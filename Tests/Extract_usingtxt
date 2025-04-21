@@ -1,0 +1,174 @@
+import re
+import pandas as pd
+import time
+import sys
+
+# --- Patterns remain the same ---
+shall_pattern = re.compile(r"\bwill\b", re.IGNORECASE)
+section_pattern = re.compile(r"^(?:[A-Z]\.|\d+(\.\d+)*)\.?\s*")
+
+def find_section_details_txt(line_text):
+    """Checks if a line starts with a section number/letter, returns number and title."""
+    match = section_pattern.match(line_text)
+    if match:
+        number = match.group().strip()
+        title = line_text[match.end():].strip()
+        return number, title
+    return None, None
+
+# --- Main Processing ---
+start_time = time.time()
+print("Starting text file processing (with extra debugging)...")
+txt_file_path = "Copy of dafi36-2110.txt"
+
+results = []
+current_section_number = "N/A"
+current_section_title = "N/A"
+line_counter = 0
+error_count = 0
+last_print_time = start_time
+
+try:
+    with open(txt_file_path, 'r', encoding='utf-8', errors='ignore') as infile:
+        print(f"Opened '{txt_file_path}' successfully.")
+        sys.stdout.flush()
+
+        for line in infile:
+            line_counter += 1
+            # --- DEBUG PRINT 1 ---
+            # print(f"DEBUG: Processing line {line_counter}...")
+            # sys.stdout.flush() # Ensure it prints immediately
+
+            line_text = line.strip()
+
+            if not line_text:
+                continue
+
+            # --- DEBUG PRINT 2 ---
+            # Optional: print every N lines to show progress even between timed updates
+            if line_counter % 500 == 0:
+                 print(f"  ... DEBUG: Reached line {line_counter}")
+                 sys.stdout.flush()
+
+
+            # Print progress periodically (e.g., every 10 seconds)
+            current_time = time.time()
+            if current_time - last_print_time > 10:
+                elapsed_time = current_time - start_time
+                print(f"  ... Processing line {line_counter}... Last potential section: '{current_section_number}'. Elapsed: {elapsed_time:.1f}s")
+                sys.stdout.flush()
+                last_print_time = current_time
+
+            try:
+                # --- DEBUG PRINT 3 ---
+                # print(f"  DEBUG: Checking line {line_counter} for section...")
+                # sys.stdout.flush()
+                sec_num, sec_title = find_section_details_txt(line_text)
+                if sec_num is not None:
+                    current_section_number = sec_num
+                    current_section_title = sec_title
+                    # --- DEBUG PRINT 4 ---
+                    # print(f"    DEBUG: Found section: {current_section_number}")
+                    # sys.stdout.flush()
+
+
+                # --- DEBUG PRINT 5 ---
+                # print(f"  DEBUG: Searching for 'shall' in line {line_counter}...")
+                # sys.stdout.flush()
+                matches = shall_pattern.findall(line_text)
+                # --- DEBUG PRINT 6 ---
+                # print(f"    DEBUG: Found {len(matches)} matches.")
+                # sys.stdout.flush()
+
+                if matches:
+                    # --- DEBUG PRINT 7 ---
+                    # print(f"  DEBUG: Appending result for line {line_counter}...")
+                    # sys.stdout.flush()
+                    results.append({
+                        "Element Type": "Line",
+                        "Element Order": line_counter,
+                        "Section Number": current_section_number,
+                        "Section Title": current_section_title,
+                        "Matches": len(matches),
+                        "Text": line_text,
+                        "Location Detail": f"Line {line_counter}"
+                    })
+                    # --- DEBUG PRINT 8 ---
+                    # print(f"    DEBUG: Append successful.")
+                    # sys.stdout.flush()
+
+
+            except Exception as e:
+                error_count += 1
+                print(f"\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+                print(f"ERROR processing line {line_counter}!")
+                # Print limited text to avoid overwhelming console if line is huge
+                print(f"Problematic Text (up to 500 chars): '{line_text[:500]}...'")
+                print(f"Current Section when error occurred: {current_section_number} - {current_section_title}")
+                print(f"Error Details: {e}")
+                # Optional: Uncomment traceback for more detail
+                # import traceback
+                # print("Traceback:")
+                # traceback.print_exc()
+                print(f"Attempting to continue processing next line...")
+                print(f"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n")
+                sys.stdout.flush()
+                continue # Continue to the next line
+
+except FileNotFoundError:
+    print(f"FATAL ERROR: File not found: {txt_file_path}")
+    exit()
+except Exception as main_loop_error:
+    print(f"\n--- FATAL ERROR during file reading/processing ---")
+    print(f"Stopped near line number: {line_counter}")
+    print(f"Current Section when error occurred: {current_section_number} - {current_section_title}")
+    print(f"Error: {main_loop_error}")
+    import traceback
+    print("Traceback:")
+    traceback.print_exc()
+    sys.stdout.flush()
+
+# --- Final Saving Step ---
+print("\nProcessing finished or stopped.") # Modified message slightly
+# ... (rest of the saving logic is the same as before) ...
+
+print(f"Total lines processed (or attempted): {line_counter}")
+print(f"Total 'shall' instances found: {len(results)}")
+print(f"Total errors encountered: {error_count}")
+
+if results:
+    print("Saving results to CSV...")
+    df = pd.DataFrame(results)
+    df = df[[
+        "Section Number", "Section Title", "Element Type",
+        "Matches", "Text", "Location Detail", "Element Order"
+    ]]
+    output_filename = "shall_references_from_TXT_DEBUG.csv" # Changed output name
+    try:
+        df.to_csv(output_filename, index=False, encoding='utf-8-sig')
+        print(f"✅ Done! Saved {len(results)} instances to '{output_filename}'")
+    except Exception as e:
+        print(f"ERROR saving final CSV file: {e}")
+elif error_count > 0:
+     print(f"⚠️ Processing encountered {error_count} errors during line processing.")
+     # Optionally save partial results here if desired and results list is not empty:
+     if results:
+         print("Saving partial results (up to the point of failure/last successful processing)...")
+         df = pd.DataFrame(results)
+         df = df[[
+             "Section Number", "Section Title", "Element Type",
+             "Matches", "Text", "Location Detail", "Element Order"
+         ]]
+         partial_output_filename = "shall_references_PARTIAL_TXT_WITH_ERRORS.csv"
+         try:
+             df.to_csv(partial_output_filename, index=False, encoding='utf-8-sig')
+             print(f"ℹ️ Partial results saved to '{partial_output_filename}'")
+         except Exception as e:
+             print(f"ERROR saving partial CSV file: {e}")
+
+else:
+    print("ℹ️ No instances of 'shall' found or no results generated.")
+
+end_time = time.time()
+total_time = end_time - start_time
+print(f"\nTotal execution time: {total_time:.2f} seconds.")
