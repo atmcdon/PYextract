@@ -1,0 +1,1359 @@
+Role: Space Force
+abbreviation: (USSF)
+
+Role: Assistant Secretary of the Air Force for Manpower and Reserve Affairs
+abbreviation: (SAF/MR)
+
+Role: Director, Personnel Operations
+abbreviation: (AFPC/DPM)
+
+Role: Enterprise Talent Management  Organization
+abbreviation: (ETMO)
+
+Role: Provide guidance and implementation instructions to the Military Personnel Flight
+abbreviation: (MPF)
+
+Role: Act as required on behalf of the AFPC Commander
+abbreviation: (AFPC/CC)
+
+Role: Air Force Reserve
+abbreviation: (AFR)
+
+Role: Office of Air Force Reserve, Directorate of Personnel
+abbreviation: (AF/REP)
+
+Role: Headquarters Air Force Reserve Command
+abbreviation: (AFRC)
+
+Role: Coordinate with Air Reserve Personnel Center
+abbreviation: (ARPC)
+
+Role: Active Guard and  Reserve
+abbreviation: (AGR)
+
+Role: Headquarters
+abbreviation: (HQ)
+
+Role: Individual  Reservist
+abbreviation: (IR)
+
+Role: Readiness and Integration Organization
+abbreviation: (RIO)
+
+Role: Air Reserve Personnel Center
+abbreviation: (ARPC)
+
+Role: Be responsible for the AGR program, IR portfolio and maintaining the Individual  Ready Reserve
+abbreviation: (IRR)
+
+Role: This includes management of assignment actions in  accordance with
+abbreviation: (IAW)
+
+Role: Administer the assignment program for IRs, which is inclusive of the  Individual Mobilization Augmentees
+abbreviation: (IMA)
+
+Role: Participating Individual Ready  Reservists
+abbreviation: (PIRR)
+
+Role: National Guard Bureau
+abbreviation: (NGB)
+
+Role: Director, Human Resources
+abbreviation: (NGB/HR)
+
+Role: ANG Statutory Tour Program in accordance with Air  National Guard Instruction
+abbreviation: (ANGI)
+
+Role: The Adjutant General
+abbreviation: (TAG)
+
+Role: Force Support Squadron
+abbreviation: (FSS)
+
+Role: Management of  the Air Force Reserve Individual Reserve
+abbreviation: (IR)
+
+Role: Full-Time Support
+abbreviation: (FTS)
+
+Role: Voluntary Limited  Period of Active Duty
+abbreviation: (VLPAD)
+
+Role: Air Reserve Component
+abbreviation: (ARC)
+
+Role: The Force Support Squadron
+abbreviation: (FSS)
+
+Role: Military Personnel Flight
+abbreviation: (MPF)
+
+Role: Provide unit commanders with guidance and assistance in developing force  management plans, ensuring all assignment actions comply with this instruction, and updating  all assignment actions in the Personnel Data System
+abbreviation: (PDS)
+
+Role: ETMO
+abbreviation: (USSF)
+
+Role: ARPC
+abbreviation: (AFR)
+
+Role: Military  Personnel Management Office
+abbreviation: (ANG)
+
+Role: Provide reports to wing leadership
+abbreviation: (AFR)
+
+Role: DPA and HQ RIO, the DAF, Air Force  Reserve Senior Leader Management Directorate
+abbreviation: (AF/REG)
+
+Role: The Office of the Judge Advocate General, Professional Development  Directorate
+abbreviation: (AF/JAX)
+
+Role: The Deputy Undersecretary of the Air Force for International Affairs,  International Airman and Guardians Division
+abbreviation: (SAF/IAPA)
+
+Role: Designated Assignment Authority and Office of  Primary Responsibility
+abbreviation: (OPR)
+
+Role: The Judge Advocate General
+abbreviation: (TJAG)
+
+Role: Air Force Personnel Center
+abbreviation: (AFPC)
+
+Role: USSF Enterprise Talent Management Organization
+abbreviation: (ETMO)
+
+Role: Judge Advocate General, Professional Development Directorate
+abbreviation: (AF/JAX)
+
+Role: AFPC Directorate of Personnel Operations
+abbreviation: (AFPC/DPM)
+
+Role: Logistics and Support Airmen Career Management Division
+abbreviation: (AFPC/DPML)
+
+Role: Acquisition Airmen Career Management Branch
+abbreviation: (AFPC/DPMLA)
+
+Role: Logistics and Maintenance Airman Career Management Branch
+abbreviation: (AFPC/DPMLL)
+
+Role: Logistics Airmen Career Management Section
+abbreviation: (AFPC/DPMLLL)
+
+Role: Maintenance Airmen Career Management Section
+abbreviation: (AFPC/DPMLLM)
+
+Role: Support Airmen Career Management Branch
+abbreviation: (AFPC/DPMLS)
+
+Role: Civil Engineer Career Management Section
+abbreviation: (AFPC/DPMLSE)
+
+Role: Mission Support, Services and Public Affairs
+abbreviation: (PA)
+
+Role: Career Management Section
+abbreviation: (AFPC/DPMLSP)
+
+Role: Security Airmen Career Management Section
+abbreviation: (AFPC/DPMLSS)
+
+Role: Military Accessions Branch
+abbreviation: (AFPC/DPMLT)
+
+Role: Workforce Development Support Branch
+abbreviation: (AFPC/DPMLW)
+
+Role: Assignment Support Section
+abbreviation: (AFPC/DPMLWA)
+
+Role: Workforce Development Section
+abbreviation: (AFPC/DPMLWD)
+
+Role: Medical and Chaplain Career Management Division
+abbreviation: (AFPC/DPMN)
+
+Role: Dental, Medical Career Management Medical Deployment, Developmental   Branch
+abbreviation: (AFPC/DPMND)
+
+Role: Chaplain Career Management Branch
+abbreviation: (AFPC/DPMNH)
+
+Role: Nurse Medical Career Management Branch
+abbreviation: (AFPC/DPMNN)
+
+Role: Physician Career Management Branch
+abbreviation: (AFPC/DPMNP)
+
+Role: Biomedical Science and Enlisted Medical Assignments Branch
+abbreviation: (AFPC/DPMNW)
+
+Role: Operations and Special Duty Airmen Career Management Division
+abbreviation: (AFPC/DPMO)
+
+Role: Nonrated Operations Airmen Career Management Branch
+abbreviation: (AFPC/DPMOA)
+
+Role: Nonrated Operations and Command and Control Airmen Career Management Section
+abbreviation: (AFPC/DPMOAA)
+
+Role: Cyber Airmen Career Management Section
+abbreviation: (AFPC/DPMOAC)
+
+Role: Intel Operations Airmen Career Management Section
+abbreviation: (AFPC/DPMOAI)
+
+Role: Rated Operations Airmen Career Management Branch
+abbreviation: (AFPC/DPMOR)
+
+Role: Combat Air Forces Operations Airmen Career Management Section
+abbreviation: (AFPC/DPMORC)
+
+Role: Mobility Air Forces Operations Airmen Career Management Section
+abbreviation: (AFPC/DPMORM)
+
+Role: Operations Staff and Special Duty Career Management Branch
+abbreviation: (AFPC/DPMOS)
+
+Role: Operations Staff and Development Career Management Section
+abbreviation: (AFPC/DPMOSD)
+
+Role: Special Duty Career Management Section
+abbreviation: (AFPC/DPMOSS)
+
+Role: USSF Special Duty Career Management Section
+abbreviation: (ETMO)
+
+Role: Special Programs Assignments Office
+abbreviation: (AFPC/DPMX)
+
+Role: USSF Special Access Programs Assignments Office
+abbreviation: (ETMO)
+
+Role: Exceptional Assignment Programs Branch
+abbreviation: (AFPC/DPFXAA)
+
+Role: Permanent Change of Assignment
+abbreviation: (PCA)
+
+Role: If the purpose of the PCS is for a service member to fill a funded vacant  manpower authorization and to perform duty in their Air Force Specialty
+abbreviation: (AFS)
+
+Role: Space Force  Specialty
+abbreviation: (SFS)
+
+Role: Assignment Limitation Codes
+abbreviation: (ALC)
+
+Role: Chief of  Aerospace Medicine
+abbreviation: (SGP)
+
+Role: SGP
+abbreviation: (ANG)
+
+Role: Medical Continuation
+abbreviation: (MEDCON)
+
+Role: Disability Evaluation  System
+abbreviation: (DES)
+
+Role: Reserve Component
+abbreviation: (RC)
+
+Role: Career aviators are those  AFSCs that require aviation service as a mandatory specialty qualification according to the Air  Force Enlisted Classification Directory
+abbreviation: (AFECD)
+
+Role: Aviation Management, and  Air Force Manual
+abbreviation: (AFMAN)
+
+Role: UX or Special Duty  Identifiers
+abbreviation: (SDI)
+
+Role: United States Air Force, Chief of Air Force Chaplains
+abbreviation: (AF/HC)
+
+Role: Grade, name, and Social Security Number
+abbreviation: (SSN)
+
+Role: Exceptional Family Member  Program
+abbreviation: (EFMP)
+
+Role: If an individual is a Numbered Air Force
+abbreviation: (NAF)
+
+Role: Personnel Accounting Symbol
+abbreviation: (PAS)
+
+Role: Guardian  Evaluations Systems
+abbreviation: (USSF)
+
+Role: AFPC Casualty Services Branch
+abbreviation: (AFPC/DPFCS)
+
+Role: Officers cannot have exceeded their  Mandatory Separation Date or age restrictions, and enlisted members cannot have exceeded  their High Year Tenure
+abbreviation: (HYT)
+
+Role: An AFR recruiter will forward the application through  the gaining MPF to the unit commander for unit program assignment or the Readiness and  Integration Organization
+abbreviation: (RIO)
+
+Role: CC will then forward the application through the NAF to Air Reserve  Personnel Center Assignments Division
+abbreviation: (ARPC/DPAA)
+
+Role: The  Adjutant General
+abbreviation: (TAG)
+
+Role: Commanding General
+abbreviation: (CG)
+
+Role: Exceptional Family Member Program
+abbreviation: (EFMP)
+
+Role: DPA
+abbreviation: (AGR)
+
+Role: Continental United States
+abbreviation: (CONUS)
+
+Role: Special Needs Coordinator in the Military Treatment Facility
+abbreviation: (MTF)
+
+Role: Uniformed Code of Military Justice
+abbreviation: (UCMJ)
+
+Role: RegAF and USSF members desiring EFMP deferment must submit their requests  through vMPF after receiving a Dependent Travel Approved
+abbreviation: (DTA)
+
+Role: Special Needs Coordinator
+abbreviation: (SNC)
+
+Role: The member was denied family member travel by the gaining MTF based on  processing of the myVector Family Member Travel Screening
+abbreviation: (FMTS)
+
+Role: PCS  Continental United States
+abbreviation: (CONUS)
+
+Role: Medical and  Educational Clearance for Travel, Major Command Surgeon General
+abbreviation: (MAJCOM/SG)
+
+Role: Vulnerable  Mover List
+abbreviation: (VML)
+
+Role: PP
+abbreviation: (USSF)
+
+Role: Vector Family Member Travel Screening
+abbreviation: (FMTS)
+
+Role: Sexual  Assault Prevention and Response
+abbreviation: (SAPR)
+
+Role: Under Secretary of Defense
+abbreviation: (USD)
+
+Role: HQ RIO
+abbreviation: (IR)
+
+Role: Traditional Reserve
+abbreviation: (TR)
+
+Role: Family Advocacy Program
+abbreviation: (FAP)
+
+Role: If location resolution cannot be obtained, the discussion will be resolved between Air  Force, Sexual Assault Prevention and Response
+abbreviation: (AF/CVS)
+
+Role: Depending on the type of reassignment requested, in addition to the losing unit  commander, other parties involved in the reassignment process may include gaining  commander, recruiter, Wing AGR Program Manager, RIO Det CCs, AFPC, ARPC, Host  Aviation Resource Management, Functional Area Manager
+abbreviation: (FAM)
+
+Role: Career Functional  Manager
+abbreviation: (CFM)
+
+Role: Reassignment for military technicians and AGRs must be assigned as  position incumbents to unit manning document
+abbreviation: (UMD)
+
+Role: Contact Human Resources
+abbreviation: (NGB/HR)
+
+Role: Air Force  Educational  Leave of  Absence
+abbreviation: (AFELA)
+
+Role: Application  for program  leading to a  commission    X  Applied for  commission  through a service  academy,  preparatory  school, Air Force  Reserve Officer  Training Corps
+abbreviation: (AFROTC)
+
+Role: Airman Education  and  Commissioning  Program
+abbreviation: (AECP)
+
+Role: AFROTC and  Officer  Training  School
+abbreviation: (OTS)
+
+Role: Selective  Reenlistment  Program
+abbreviation: (SRP)
+
+Role: Verify service  member has  Unfavorable  Information  File
+abbreviation: (UIF)
+
+Role: Under  Security  Forces or  AFOSI  X  X  Includes  investigation by  the Base Security  Forces, or Air  Force Office of  Special  Investigations
+abbreviation: (AFOSI)
+
+Role: Nominated  for a Special  Duty  Assignment  or MAJCOM  assignment    X  Service member  nominated to  Headquarters Air  Force
+abbreviation: (HAF)
+
+Role: Fiscal Year
+abbreviation: (FY)
+
+Role: Management of  the Air Force  Reserve  Individual  Reserve
+abbreviation: (IR)
+
+Role: Assignment  Deferment
+abbreviation: (AD)
+
+Role: Air  Force Elements
+abbreviation: (AFELM)
+
+Role: Critical  Acquisition  Position  Tenure
+abbreviation: (CAP)
+
+Role: AFPC or Air  Education and  Training  Command
+abbreviation: (AETC)
+
+Role: OS Tour  Extension  Incentive  Program
+abbreviation: (OTEIP)
+
+Role: Primary  Air Force  Specialty Code
+abbreviation: (PAFSC)
+
+Role: GAT
+abbreviation: (USSF)
+
+Role: If the enlisted service member refuses to obtain retainability to fulfill the Controlled Duty Assignment commitment or  Active Duty Service Commitment
+abbreviation: (ADSC)
+
+Role: Enlisted service member receiving Overseas Tour Extension Incentive Program
+abbreviation: (OTEIP)
+
+Role: B  Sensitive  Compartment ed  Information
+abbreviation: (SCI)
+
+Role: Assignable to non- permanent  installations or  installations without  intrinsic MTF with  approval of gaining  installation Chief of  Aerospace Medicine
+abbreviation: (SGP)
+
+Role: Chief of  Medical Staff
+abbreviation: (SGH)
+
+Role: Return to Service and Interim Member Transfer
+abbreviation: (RTS/IMT)
+
+Role: The return to  service
+abbreviation: (RTS)
+
+Role: TEMPORARY DUTY
+abbreviation: (TDY)
+
+Role: US Space Force deployment and  redeployments that support Combatant Commander
+abbreviation: (CCDR)
+
+Role: Delegation of Temporary Duty
+abbreviation: (TDY)
+
+Role: If necessary, the Financial Services Office
+abbreviation: (FSO)
+
+Role: Air Force  Education and Training Course Announcements
+abbreviation: (ETCA)
+
+Role: The office of the Deputy Assistant Secretary, Force Management  Integration, Air Force Principal to Per Diem, Travel and Transportation Allowance Committee
+abbreviation: (PDTATAC)
+
+Role: For the ARC, requests involving Military  Personnel Appropriations
+abbreviation: (MPA)
+
+Role: The manual process includes a letter with  justification signed by the unit commander or authorized representative processed through the  appropriate chain of command to the Chief of Air Force Reserve, Directorate of Personnel  Policy Division
+abbreviation: (AF/REPP)
+
+Role: TDY Cost Chargeable to Military Personnel
+abbreviation: (MILPERS)
+
+Role: E, DoD Foreign Clearance Program
+abbreviation: (FCP)
+
+Role: Duty Air Force Specialty  Code
+abbreviation: (DAFSC)
+
+Role: Duty Space Force Specialty Code
+abbreviation: (DSFSC)
+
+Role: Grade, name, duty title, organization, Defense Switched Network
+abbreviation: (DSN)
+
+Role: When a request is submitted by a point of  contact
+abbreviation: (POC)
+
+Role: The  functional assignment manager is highly encouraged to consult with the MAJCOM  functional managers
+abbreviation: (MFM)
+
+Role: Air Education and Training  Command Financial Management and Comptroller
+abbreviation: (AETC/FM)
+
+Role: REGAF, USSF, AND USAF EXTENDED ACTIVE DUTY
+abbreviation: (EAD)
+
+Role: The Director of Personnel Operations
+abbreviation: (AFPC/DPM)
+
+Role: Director, Enterprise Talent Management Organization
+abbreviation: (ETMO)
+
+Role: AFSC
+abbreviation: (DAFSC)
+
+Role: SFSC
+abbreviation: (CAFSC/CSFSC)
+
+Role: MFMs  have an advisory role and provide oversight to allocations for overseas cycles, overseas  returnee cycles, CONUS mandatory moves, and technical training graduate
+abbreviation: (TTG)
+
+Role: The plug table can be used to insert values for Special Experience Identifier
+abbreviation: (SEI)
+
+Role: Personnel Processing Code
+abbreviation: (PPC)
+
+Role: The CFMs should provide assignment  priority listings to help the AFPC Functional Area Manager
+abbreviation: (FAM)
+
+Role: Permanent Change of Station
+abbreviation: (PCS)
+
+Role: The Personnel Budget Review Committee oversees the Active Air Force and Space  Force Military Personnel
+abbreviation: (MILPERS)
+
+Role: The Deputy Assistant Secretary for Budget
+abbreviation: (SAF/FMB)
+
+Role: FMB delegates PCS budgeting responsibilities to the Military Personnel  Appropriation Branch
+abbreviation: (SAF/FMBOP)
+
+Role: FM,  Office of the Secretary of Defense
+abbreviation: (OSD)
+
+Role: CC is a core member of the Personnel Budget Review Committee
+abbreviation: (PBRC)
+
+Role: Special Experience Identifier
+abbreviation: (SEI)
+
+Role: The assignments process is managed to  coincide with Air Force Force Generation
+abbreviation: (AFFORGEN)
+
+Role: Control Air Force Specialty Code
+abbreviation: (CAFSC)
+
+Role: Control  Space Force Specialty Code
+abbreviation: (CSFSC)
+
+Role: AFFORGEN Employment Force Indicator
+abbreviation: (AEFI)
+
+Role: SSgt
+abbreviation: (USAF)
+
+Role: Sgt
+abbreviation: (USSF)
+
+Role: SrA
+abbreviation: (USAF)
+
+Role: Amn
+abbreviation: (USAF)
+
+Role: Airman Basic
+abbreviation: (AB)
+
+Role: SDI or Reporting Identifier
+abbreviation: (RI)
+
+Role: RI are normally selected based on their PAFSC or Primary Space Force  Specialty Code
+abbreviation: (PSFSC)
+
+Role: The overseas duty selection date
+abbreviation: (ODSD)
+
+Role: Curtailment for cause or not for cause of  members assigned to Headquarters Air Force, the Office of the SecAF, the Joint Chiefs of  Staff
+abbreviation: (JCS)
+
+Role: PAFSC
+abbreviation: (USAF)
+
+Role: PSFSC
+abbreviation: (USSF)
+
+Role: CONUS mandatory movers
+abbreviation: (CMM)
+
+Role: Enlisted Quarterly Assignment Listing
+abbreviation: (EQUAL)
+
+Role: Members may request cancellation of an approved deferment through Case  Management System
+abbreviation: (CMS)
+
+Role: The appropriate AFPC
+abbreviation: (USAF)
+
+Role: The AFPC Assignment Division Chief
+abbreviation: (USAF)
+
+Role: ETMO Talent Operations  Division Chief
+abbreviation: (USSF)
+
+Role: The MPF must verify the dependent child is enrolled in Defense  Enrollment Eligibility Reporting System
+abbreviation: (DEERS)
+
+Role: Officers are eligible for the  program if they apply No Early Than
+abbreviation: (NET)
+
+Role: Eligible officers who have been selected for Intermediate  Developmental Education
+abbreviation: (IDE)
+
+Role: Senior Developmental Education
+abbreviation: (SDE)
+
+Role: Intermediate Level Education
+abbreviation: (ILE)
+
+Role: Senior Level Education
+abbreviation: (USSF)
+
+Role: Judge Advocates
+abbreviation: (JA)
+
+Role: Stamina
+abbreviation: (PULHES)
+
+Role: Training Squadron
+abbreviation: (TRS)
+
+Role: As an exception, first term Airmen or Guardians  retraining in conjunction with Career Airmen Reenlistment Reservation System
+abbreviation: (CAREERS)
+
+Role: Total Active Federal Military  Service
+abbreviation: (TAFMS)
+
+Role: Enlisted members who are eligible and  desire to reenlist on their Expiration of Term of Service
+abbreviation: (ETS)
+
+Role: Section III and send  to Automated Records Management System to be filed in the electronic Unit  Personnel Records Group
+abbreviation: (UPRG)
+
+Role: Consecutive Overseas Tours
+abbreviation: (COT)
+
+Role: In-Place Consecutive Overseas Tour
+abbreviation: (IPCOT)
+
+Role: L, or Air Force Personnel  Center Retirements and Separations Branch
+abbreviation: (AFPC/DPMSTM)
+
+Role: Members restored to active duty or reinstated on active duty following  action under the Air Force Board for the Correction of Military Records
+abbreviation: (BCMR)
+
+Role: Total Active Federal Military Service Date
+abbreviation: (TAFMSD)
+
+Role: L for
+abbreviation: (USSF)
+
+Role: Traffic Management Office
+abbreviation: (TMO)
+
+Role: General Officer or  Senior Executive Service
+abbreviation: (SES)
+
+Role: Report Not Later Than Date
+abbreviation: (RNLTD)
+
+Role: Report Not Earlier Than Date
+abbreviation: (RNETD)
+
+Role: Assignment Action  Number
+abbreviation: (AAN)
+
+Role: Assignment Action Number
+abbreviation: (AAN)
+
+Role: AANs are necessary only for those permanent changes of  station
+abbreviation: (PCS)
+
+Role: Household Goods
+abbreviation: (HHG)
+
+Role: Second PCS and Second Dislocation Allowance, Same Fiscal Year
+abbreviation: (FY)
+
+Role: Military  Training Instructor
+abbreviation: (MTI)
+
+Role: Military Training Leader
+abbreviation: (MTL)
+
+Role: A mandatory utilization requirement is separate from an ADSC or the requirement to  be assigned to a manpower position which requires an Advanced Academic Degree
+abbreviation: (AAD)
+
+Role: Members may request  a change of utilization field by submitting a duty
+abbreviation: (DAFSC/DSFSC)
+
+Role: Officers must meet  the specialty eligibility requirements shown in the Air Force Officer Classification  Directory
+abbreviation: (AFOCD)
+
+Role: Duty change
+abbreviation: (DAFSC/DSFSC)
+
+Role: If the pool of available and qualified officers for a given academic cycle is such that  not all Air Force Educational Requirement Board AAD requirements can be filled, the AAD  program requirement, and thus the FO position, can be changed by the functional assignment  team, if approved by Air University Registrar Office
+abbreviation: (AU/CFR)
+
+Role: AAD position may be substituted with another valid AAD  position by the functional assignment team, if approved by Air University Registrar Office
+abbreviation: (AU/CFR)
+
+Role: Nonrated Line
+abbreviation: (NRL)
+
+Role: The  Controlled Duty Assignments for training normally are provided by a training allocation
+abbreviation: (TNGALC)
+
+Role: The responsible technical training center
+abbreviation: (TTC)
+
+Role: At a minimum the unit commander, Air Force Office Special Investigation
+abbreviation: (AFOSI)
+
+Role: Staff Judge Advocate
+abbreviation: (SJA)
+
+Role: Joint Qualification System
+abbreviation: (JQS)
+
+Role: Joint Officer  Management
+abbreviation: (JOM)
+
+Role: Grant first-term Airman or Guardian ineligible to reenlist because of insufficient time in service to request a  Career Job Reservation
+abbreviation: (CJR)
+
+Role: Extended Long Overseas Tour
+abbreviation: (ELT)
+
+Role: Air Education and Training Course Announcement
+abbreviation: (ETCA)
+
+Role: Professional Military Education
+abbreviation: (PME)
+
+Role: The Director, Defense Intelligence Agency
+abbreviation: (DIA)
+
+Role: United Stated Indo-Pacific Command
+abbreviation: (USINDOPACOM)
+
+Role: United  States Central Command
+abbreviation: (USCENTCOM)
+
+Role: United States Commander in Chief, United  States Atlantic Command
+abbreviation: (USCINCLANT)
+
+Role: United States Forces in Europe
+abbreviation: (USAFE)
+
+Role: Lakenheath
+abbreviation: (UK)
+
+Role: Mildenhall
+abbreviation: (UK)
+
+Role: Alconbury
+abbreviation: (UK)
+
+Role: Croughton Air Base
+abbreviation: (UK)
+
+Role: London
+abbreviation: (UK)
+
+Role: Menwith Hill
+abbreviation: (UK)
+
+Role: Fairford
+abbreviation: (UK)
+
+Role: Welford
+abbreviation: (UK)
+
+Role: Molesworth
+abbreviation: (UK)
+
+Role: Pacific Air Forces
+abbreviation: (PACAF)
+
+Role: The interface between the DAF Military PDS and the Defense  Finance Accounting Service
+abbreviation: (DFAS)
+
+Role: Overseas Duty Selection Date
+abbreviation: (ODSD)
+
+Role: Date Eligible for Return from overseas
+abbreviation: (DEROS)
+
+Role: LG
+abbreviation: (USAF)
+
+Role: Guardian  Assignment Timeline
+abbreviation: (GAT)
+
+Role: Guardian Assignment Timeline
+abbreviation: (GAT)
+
+Role: Report Identifier
+abbreviation: (RI)
+
+Role: Medical Support to Family Member Relocation and  Exceptional Family Member Program
+abbreviation: (EFMP)
+
+Role: Plan  Identification Number
+abbreviation: (PID)
+
+Role: Saudi Arabia, Kuwait, Iraq, United Arab Emirates
+abbreviation: (UAE)
+
+Role: Travel restriction date
+abbreviation: (TRD)
+
+Role: Air Force Military Justice and Policy Division
+abbreviation: (JA/JAJM)
+
+Role: Date of Rank
+abbreviation: (DOR)
+
+Role: Date of Birth
+abbreviation: (DOB)
+
+Role: Reverse Social Security Number
+abbreviation: (SSN)
+
+Role: Each requirement is a Chief of Staff, United States Air Force
+abbreviation: (CSAF)
+
+Role: Chief of  Space Operations
+abbreviation: (CSO)
+
+Role: The unit  Installation Personnel Readiness
+abbreviation: (IPR)
+
+Role: Air National Guard  Active Guard Reserve
+abbreviation: (AGR)
+
+Role: Non Volunteers are prioritized based on  number of short tours, short tour return date
+abbreviation: (STRD)
+
+Role: The Air Force commander must submit a  shortfall action in Deliberate Crisis Action Planning Execution Segments
+abbreviation: (DCAPES)
+
+Role: AIR FORCE RESERVE
+abbreviation: (AFR)
+
+Role: UMD expiration  date equaling the members Military Service Obligation
+abbreviation: (MSO)
+
+Role: Reserve Assignment Branch
+abbreviation: (ARPC/DPAAA)
+
+Role: The NAF, Regional Support Group
+abbreviation: (RSG)
+
+Role: Stripes for Exceptional Performers
+abbreviation: (STEP)
+
+Role: This direction also applies to Joint Staff and Joint Duty Assignment List
+abbreviation: (JDAL)
+
+Role: Chairman  Joint Chief of Staff Instruction
+abbreviation: (CJCSI)
+
+Role: The Office of Air Force Reserve, Directorate of Personnel
+abbreviation: (AF/REP)
+
+Role: Immediately classify all new retrainee or enlisted  ARTs not possessing the required AFSC, at the entry level, if they satisfy the minimum Office  of Personnel Management
+abbreviation: (OPM)
+
+Role: International Affairs Specialists
+abbreviation: (IAS)
+
+Role: International Affairs  Specialist
+abbreviation: (IAS)
+
+Role: The member  may apply for an assignment to the Non-Affiliated Reserve Section
+abbreviation: (NARS)
+
+Role: Key Employees
+abbreviation: (ND)
+
+Role: The NARS-Obligors
+abbreviation: (NB)
+
+Role: AFR Key, Command and Joint Duty Assignment List
+abbreviation: (JDAL)
+
+Role: DoD Joint Officer Management
+abbreviation: (JOM)
+
+Role: Management of The Air Force Reserve  Individual Reserve
+abbreviation: (IR)
+
+Role: Management of The Air Force Reserve Individual Reserve
+abbreviation: (IR)
+
+Role: RIO Det
+abbreviation: (IR)
+
+Role: Single Unit Retrieval Format
+abbreviation: (SURF)
+
+Role: This does not  apply to IRR, ANG, Voluntary Limited Period of Active Duty
+abbreviation: (VLPAD)
+
+Role: CC
+abbreviation: (IRR)
+
+Role: Is enrolled in the college scholarship or advanced  Reserve Officer Training Corps program of any   Armed Force, or is an AFROTC appointee   the Ready Reserve other than Obligated  Reserve Section
+abbreviation: (ORS)
+
+Role: RSG, Det, Group
+abbreviation: (GP)
+
+Role: Chief of the Air Force Reserve
+abbreviation: (AF/RE)
+
+Role: TIG at the time of the next reserve Brigadier General
+abbreviation: (BG)
+
+Role: Voluntary Limited Period of Active Duty
+abbreviation: (VLPAD)
+
+Role: AFR INDIVIDUAL READY RESERVE
+abbreviation: (IRR)
+
+Role: The NARS-Non Obligors
+abbreviation: (NA)
+
+Role: The NARS-Sanctuary
+abbreviation: (NC)
+
+Role: Military Service Obligation
+abbreviation: (MSO)
+
+Role: Obligated Reserve Section
+abbreviation: (ORS)
+
+Role: Ready Reinforcement Personnel Section
+abbreviation: (MT)
+
+Role: The Ready Reinforcement Personnel  Section
+abbreviation: (MT)
+
+Role: NARS-NA, NARS- NB, NARS-Sanctuary
+abbreviation: (NC)
+
+Role: DPAMR
+abbreviation: (IRR)
+
+Role: RO TC
+abbreviation: (MX)
+
+Role: The State Human Resource Office
+abbreviation: (HRO)
+
+Role: Active Guard  and Reserve
+abbreviation: (AGR)
+
+Role: Resource Identifier Code
+abbreviation: (RIC)
+
+Role: Drill, Resource Identifier Code
+abbreviation: (RIC)
+
+Role: AGR Resource Identifier Code
+abbreviation: (RIC)
+
+Role: Student Resource Identifier Code
+abbreviation: (RIC)
+
+Role: Drill Resource Identifier Code
+abbreviation: (RIC)
+
+Role: ANG Civilian Technicians Resource Identifier Code
+abbreviation: (RIC)
+
+Role: Only under extreme circumstances, to include school availability, should Prior  Service
+abbreviation: (PS)
+
+Role: Prior Service
+abbreviation: (PS)
+
+Role: Selectees must meet the minimum Physical Profile System Chart
+abbreviation: (PULHES)
+
+Role: Assignment requests will be submitted to the NGB Senior Enlistment  Management Office
+abbreviation: (SELMO)
+
+Role: Officers being considered for appointment to  positions of Adjutant General
+abbreviation: (AG)
+
+Role: United States  Code
+abbreviation: (USC)
+
+Role: Overgrade Position
+abbreviation: (ANG)
+
+Role: Total Active Federal  Military Service
+abbreviation: (TAFMS)
+
+Role: A Point Credit  Accounting and Reporting System
+abbreviation: (PCARS)
+
+Role: CC,  or Air Reserve Personnel Center
+abbreviation: (ARPC)
+
+Role: Active Duty Operational  Support
+abbreviation: (ADOS)
+
+Role: Active Component
+abbreviation: (AC)
+
+Role: If member is deployed, the FSS will coordinate  with the deployed Personnel Support for Contingency Operations
+abbreviation: (PERSCO)
+
+Role: Upon notification of assignment to active duty by AFPC Military  Accessions Branch
+abbreviation: (AFPC/DPMLT)
+
+Role: Years Total Active Federal Military Service
+abbreviation: (TAFMS)
+
+Role: ENLISTED AIDE SPECIAL DUTY IDENTIFIER
+abbreviation: (SDI)
+
+Role: Delegation to anyone other than the  Senior Enlisted Aide requires the approval of the Air Force Vice Chief of Staff
+abbreviation: (AF/CV)
+
+Role: Enlisted Aide Special Duty Identifier
+abbreviation: (SDI)
+
+Role: Enlisted Aide allocations are determined by the SecAF  in coordination with Chief of Staff of the Air Force
+abbreviation: (CSAF)
+
+Role: Chief Space Officer
+abbreviation: (CSO)
+
+Role: Disability Evaluation System
+abbreviation: (DES)
+
+Role: The Per Diem, Travel and  Transportation Allowance Committee
+abbreviation: (PDTATAC)
+
+Role: International Affairs Specialist
+abbreviation: (IAS)
+
+Role: Active Duty Operational Support
+abbreviation: (ADOS)
+
+Role: Line of Duty
+abbreviation: (LOD)
+
+Role: Determination, Medical Continuation
+abbreviation: (MEDCON)
+
+Role: Incapacitation
+abbreviation: (INCAP)
+
+Role: Medical Support to Family Member Relocation and Exceptional Family Member  Program
+abbreviation: (EFMP)
+
+Role: Sexual Assault Prevention and Response
+abbreviation: (SAPR)
+
+Role: Management of the Air Force Reserve Individual Reserve
+abbreviation: (IR)
+
+Role: Full- Time Support
+abbreviation: (FTS)
+
+Role: Uniform Code of Military Justice
+abbreviation: (UCMJ)
+
+Role: Air National Guard Active Guard and Reserve
+abbreviation: (AGR)
+
+Role: Selective Reenlistment Program
+abbreviation: (SRP)
+
+Role: Active Duty Service Commitment
+abbreviation: (ADSC)
+
+Role: Active Guard and Reserve
+abbreviation: (AGR)
+
+Role: Air Force Specialty
+abbreviation: (AFS)
+
+Role: Air Force Specialty Code
+abbreviation: (AFSC)
+
+Role: Cancellation of Permanent Change of Station
+abbreviation: (PCS)
+
+Role: Career Job Reservation
+abbreviation: (CJR)
+
+Role: Consecutive Overseas Tour
+abbreviation: (COT)
+
+Role: Date Eligible for Return From Overseas
+abbreviation: (DEROS)
+
+Role: Date of Separation
+abbreviation: (DOS)
+
+Role: Electronic Unit Personnel Records Group
+abbreviation: (UPRG)
+
+Role: Extended Active Duty
+abbreviation: (EAD)
+
+Role: Headquarters Air Force
+abbreviation: (HAF)
+
+Role: Individual Ready Reserve
+abbreviation: (IRR)
+
+Role: Key and Strategic
+abbreviation: (AFR)
+
+Role: AFR CFM and MFMs
+abbreviation: (MFM)
+
+Role: Major Command
+abbreviation: (MAJCOM)
+
+Role: Medical Treatment Facility
+abbreviation: (MTF)
+
+Role: Military Personnel Section
+abbreviation: (MPS)
+
+Role: All locations, including Alaska and Hawaii, outside of the continental United States
+abbreviation: (CONUS)
+
+Role: Overseas Tour Extension Incentive Program
+abbreviation: (OTEIP)
+
+Role: Permanent Duty Station
+abbreviation: (PDS)
+
+Role: Personnel Data System
+abbreviation: (PDS)
+
+Role: Permanent change of duty station
+abbreviation: (PCS)
+
+Role: A program designed to minimize the financial impact of  permanent change of station
+abbreviation: (PCS)
+
+Role: Base of Preference, Consecutive Overseas  Tour, CONUS-Isolated Station, Extended Deployment, FO, HB, IPCOT, Join Spouse, or  Voluntary Stabilized Base Assignment Program
+abbreviation: (VSBAP)
+
+Role: Special Duty Identifier
+abbreviation: (SDI)
+
+Role: Special Experience Identifiers
+abbreviation: (SEI)
+
+Role: Temporary Duty
+abbreviation: (TDY)
+
+Role: Combat  Readiness Training Centers
+abbreviation: (CRTC)
+
+Role: Unit Manpower Document
+abbreviation: (UMD)
+
+Role: Officially titled National Capitol Region
+abbreviation: (NCR)
+
+Role: PCS is upon completion of overseas tour
+abbreviation: (DEROS)
+
+Role: Procedures and responsibilities for the member, Commander, MPF,  and AFPC are outlined in the Personnel Services Delivery
+abbreviation: (PSD)
+
+Role: HOME-BASING
+abbreviation: (HB)
+
+Role: AND FOLLOW-ON
+abbreviation: (FO)
+
+Role: Purpose of the Home-Basing
+abbreviation: (HB)
+
+Role: Follow-On
+abbreviation: (FO)
+
+Role: If married to a civilian spouse, or single with dependents, will member request  a Dependents Remaining Overseas
+abbreviation: (DRO)
+
+Role: Dependent Travel to Designated Place
+abbreviation: (DTDP)
+
+Role: When a military member is killed or dies, is in a captured or missing status or has  been determined by the Veterans Administration
+abbreviation: (VA)
+
+Role: The Air Force Officer Assignment System is managed through the  Assignment Management System
+abbreviation: (AMS)
+
+Role: Intermediate Developmental Education
+abbreviation: (IDE)
+
+Role: It is imperative, the Air Force Personnel Center
+abbreviation: (AFPC)
+
+Role: Air Force Officer Assignment System uses the assignment  management system
+abbreviation: (AMS)
+
+Role: Developmental Special Duty
+abbreviation: (DSD)
+
+Role: VOLUNTARY STABILIZED BASE ASSIGNMENT PROGRAM
+abbreviation: (VSBAP)
+
+Role: OVERSEAS TOUR EXTENSION INCENTIVE PROGRAM
+abbreviation: (OTEIP)
+
+Role: ENLISTED QUARTERLY ASSIGNMENTS LISTING
+abbreviation: (EQUAL)
+
+Role: AND CONUS  MANDATORY MOVER
+abbreviation: (CMM)
+
+Role: Members can select an advance assignment with a Report Not Later Than Date
+abbreviation: (RNLTD)
+
+Role: Days following return from their deployment, in order to allow time for  reconstitution and out-processing,  Advance Assignments can be approved No Earlier Than
+abbreviation: (NET)
+
+Role: RNLTD and move their dependents  to their advanced assignment location prior to their deployment, in accordance with Permanent  Change of Station
+abbreviation: (PCS)
+
+Role: For members that are deployed  and have received an advanced assignment have the option to PCS directly to their new Permanent  Duty Station
+abbreviation: (PDS)
+
+Role: Reassignment requests in which the Special Needs Coordinator at the local  military treatment facility
+abbreviation: (MTF)
+
+Role: DPMLW Technical Training Graduates
+abbreviation: (TTG)
+
+Role: The Training Wing
+abbreviation: (TRW)
+
+Role: PCS orders for assignments with special requirements or Personnel Processing  Codes
+abbreviation: (PPC)
+
+Role: Follow-on
+abbreviation: (FO)
+
+Role: TTC identifies and documents a valid extended delay in training with an estimated  completion date and Personnel Accounting Symbol
+abbreviation: (PAS)
+
+Role: OPR is Air Force Security Forces Center
+abbreviation: (AFSFC)
+
+Role: Key Developmental Assignments such as Executive Officer, Aide de Camp,  Military Assistant, Senior Enlisted Advisor
+abbreviation: (SEA)
+
+Role: Career Field Manager
+abbreviation: (CFM)
+
+Role: The Air Force  Personnel Center
+abbreviation: (AFPC)
+
+Role: FLDCOM  Chief Diversity and Inclusion Officers
+abbreviation: (CDIO)
+
+Role: P and the Secretary of the  Air Force Office of Diversity and Inclusion
+abbreviation: (SAF/ODI)
+
+Role: Senior Enlisted Leader
+abbreviation: (HAF)
+
+Role: Recruiting, Training, Military Entrance Processing Command
+abbreviation: (MEPCON)
+
+Role: Statement of Understanding
+abbreviation: (SOU)
+
+Role: Total Active Federal Military Service
+abbreviation: (TAFMS)
+
+Role: I am in or nearing  the active duty sanctuary zone, as defined by Department of the Air Force Instruction
+abbreviation: (DAFI)
+
+Role: WAIVER OF ACTIVE DUTY SANCTUARY
+abbreviation: (ANG)
+
+Role: STATEMENT OF  UNDERSTANDING  From
+abbreviation: (DATE)
+
+Role: The program is intended to allow enlisted members with a projected  Assignment to change
+abbreviation: (SWAP)
+
+Role: Assignment Selection Dates
+abbreviation: (ASD)
+
+Role: Have the same Special Experience Identifier
+abbreviation: (SEI)
+
+Role: Members selected for Special Duty Identifier
+abbreviation: (SDI)
+
+Role: Members requiring Personnel Reliability Program
+abbreviation: (PRP)
+
+Role: COURT-ORDERED CHILD CUSTODY PROGRAM
+abbreviation: (CCCP)
+
+Role: The program is compromised of the Court-Ordered Child Custody Assignment
+abbreviation: (CCCA)
+
+Role: Court-Ordered Child Custody Deferment
+abbreviation: (CCCD)
+
+Role: These  assignments are made in accordance with Air Force Officer Assignment System
+abbreviation: (AFOAS)
+
+Role: Assignment Availability Code
+abbreviation: (AAC)
+
+Role: Support Staff
+abbreviation: (CSS)
+
+Role: Court-Ordered Child  Custody Assignment
+abbreviation: (CCCA)
+
+Role: Deferment
+abbreviation: (CCCD)
+
+Role: Applications are processed by the  assignment authority in accordance with the schedule in Personnel Services Delivery
+abbreviation: (PSD)
+
+Role: Court-Ordered Child Custody Assignment
+abbreviation: (CCCA)
+
+Role: Court-Ordered  Child Custody Assignment
+abbreviation: (CCCA)
+

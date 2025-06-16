@@ -1,0 +1,33 @@
+Role: . Air Force
+abbreviation: (REGAF)
+
+Role: and Space Force
+abbreviation: (USSF)
+
+Role: . Air Force Reserve
+abbreviation: (AFR)
+
+Role: . National Guard Bureau
+abbreviation: (NGB)
+
+Role: . The Force Support Squadron
+abbreviation: (FSS)
+
+Role: Military Personnel Flight
+abbreviation: (MPF)
+
+Role: Designated Assignment Authority and Office of Primary Responsibility
+abbreviation: (OPR)
+
+Role: Permanent Change of Assignment
+abbreviation: (PCA)
+
+Role: . Assignment Limitation Codes
+abbreviation: (ALC)
+
+Role: . Exceptional Family Member Program
+abbreviation: (EFMP)
+
+Role: . Return to Service and Interim Member Transfer
+abbreviation: (RTS/IMT)
+
