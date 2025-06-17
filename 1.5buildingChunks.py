@@ -15,7 +15,7 @@ def parse_document_into_chunks(text):
     print("Parsing document into structured chunks...")
     
     
-    header_pattern = re.compile(r"^\s*(\d+(\.\d+)*\.)\s+", re.MULTILINE)
+    header_pattern = re.compile(r"^\s*(\d+(?:\.\d+)*\.)\s+", re.MULTILINE)
 
     
     parts = header_pattern.split(text)
