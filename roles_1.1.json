@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Assistant Secretary of the Air Force for Manpower and Reserve Affairs",
+    "abbreviation": "SAF/MR"
+  },
+  {
+    "name": "Deputy Chief of Staff for Manpower, Personnel and Services",
+    "abbreviation": "AF/A1"
+  },
+  {
+    "name": "Deputy Chief of Space Operations for Human Capital",
+    "abbreviation": "SF/S1"
+  },
+  {
+    "name": "Chief of Military Force Policy Division",
+    "abbreviation": "AF/A1PP"
+  },
+  {
+    "name": "Chief of Force Management",
+    "abbreviation": "SF/S1PP"
+  },
+  {
+    "name": "Headquarters Air Force Personnel Center, Director, Personnel Programs",
+    "abbreviation": "AFPC/DP3"
+  },
+  {
+    "name": "Director, Personnel Operations",
+    "abbreviation": "AFPC/DPM"
+  },
+  {
+    "name": "Enterprise Talent Management Organization",
+    "abbreviation": "ETMO"
+  },
+  {
+    "name": "Office of Air Force Reserve, Directorate of Personnel",
+    "abbreviation": "AF/REP"
+  },
+  {
+    "name": "Headquarters Air Force Reserve Command, Chief, Military Personnel Division",
+    "abbreviation": "AFRC, A1K"
+  },
+  {
+    "name": "Air Reserve Personnel Center",
+    "abbreviation": "ARPC"
+  },
+  {
+    "name": "Headquarters Individual Reservists Readiness and Integration Organization",
+    "abbreviation": "HQ RIO"
+  },
+  {
+    "name": "Director, Manpower, Personnel, Recruiting, and Services",
+    "abbreviation": "NGB/A1"
+  },
+  {
+    "name": "Director, Human Resources",
+    "abbreviation": "NGB/HR"
+  },
+  {
+    "name": "The Adjutant General",
+    "abbreviation": "TAG"
+  },
+  {
+    "name": "Commanding General",
+    "abbreviation": "CG"
+  },
+  {
+    "name": "The State Human Resources Office",
+    "abbreviation": ""
+  },
+  {
+    "name": "Military Personnel Management Officer",
+    "abbreviation": ""
+  },
+  {
+    "name": "Installation/Wing/Delta/Group/Unit Commanders",
+    "abbreviation": ""
+  },
+  {
+    "name": "Force Support Squadron",
+    "abbreviation": "FSS"
+  },
+  {
+    "name": "Military Personnel Flight",
+    "abbreviation": "MPF"
+  },
+  {
+    "name": "General Officer Management Office",
+    "abbreviation": "AF/A1LG"
+  },
+  {
+    "name": "Senior Leader Management Office",
+    "abbreviation": "SF/S1L"
+  },
+  {
+    "name": "Air Force Reserve Senior Leader Management Directorate",
+    "abbreviation": "AF/REG"
+  },
+  {
+    "name": "Senior Management Office",
+    "abbreviation": "NGB-SL"
+  },
+  {
+    "name": "Colonel Management Office",
+    "abbreviation": "AF/A1LO"
+  },
+  {
+    "name": "Chief Master Sergeant Management Office",
+    "abbreviation": "AF/A1LE"
+  },
+  {
+    "name": "The Office of the Judge Advocate General, Professional Development Directorate",
+    "abbreviation": "AF/JAX"
+  },
+  {
+    "name": "The Office of TJAG, Total Force Advisor to TJAG",
+    "abbreviation": ""
+  },
+  {
+    "name": "The Deputy Undersecretary of the Air Force for International Affairs, International Airman and Guardians Division",
+    "abbreviation": "SAF/IAPA"
+  },
+  {
+    "name": "Air Force/Development Learning Division",
+    "abbreviation": "AF/A1DL"
+  },
+  {
+    "name": "Chief of Air Force Reserve",
+    "abbreviation": "AF/RE"
+  },
+  {
+    "name": "Director of the Air National Guard",
+    "abbreviation": "NGB/CF"
+  },
+  {
+    "name": "Air Force Personnel Center Work Force Development",
+    "abbreviation": "AFPC/DP3D"
+  },
+  {
+    "name": "Chief of Space Operations for Human Capital Force Development",
+    "abbreviation": "SF/SID"
+  },
+  {
+    "name": "Air Education and Training Command",
+    "abbreviation": "AETC"
+  },
+  {
+    "name": "Air Force Personnel Center Talent Management Division",
+    "abbreviation": "AFPC/DPCZ"
+  },
+  {
+    "name": "Air Education and Training Command Training Pipeline Managers",
+    "abbreviation": "AETC/TPM"
+  },
+  {
+    "name": "Air Education and Training Command, Directorate of Force Development",
+    "abbreviation": "AETC/A3"
+  },
+  {
+    "name": "Second Air Force Chief Training Officer",
+    "abbreviation": "2 AF/CTO"
+  },
+  {
+    "name": "Space Training and Readiness Command",
+    "abbreviation": "STARCOM"
+  },
+  {
+    "name": "Space Training and Readiness Command/Intelligence and Operations",
+    "abbreviation": "STARCOM/S2/3"
+  },
+  {
+    "name": "MAJCOM Functional Managers",
+    "abbreviation": "MFM"
+  },
+  {
+    "name": "Air National Guard Bureau Career Field Managers",
+    "abbreviation": "NGB CFM"
+  },
+  {
+    "name": "Air Force Personnel Center Assignment & Workforce Development",
+    "abbreviation": "AFPC/DPML"
+  },
+  {
+    "name": "Air Force Career Development Academy (2 AF/A3A)",
+    "abbreviation": "AFCDA"
+  },
+  {
+    "name": "Air Education and Training Command/Learning Professionals and Force Development Credentials",
+    "abbreviation": "AETC/A3B"
+  },
+  {
+    "name": "Air Education and Training Command/Force Development Registrar",
+    "abbreviation": "AETC/A3BL"
+  },
+  {
+    "name": "Air Education and Training Command/Financial Management Branch",
+    "abbreviation": "AETC/FMAM"
+  },
+  {
+    "name": "Air Education and Training Command Force Development Policy Branch",
+    "abbreviation": "AETC/A3KP"
+  },
+  {
+    "name": "Air Education and Training Command, Occupational Competencies Branch",
+    "abbreviation": "AETC/A3J"
+  },
+  {
+    "name": "Second Air Force, Strategic Plans, Programs, and Requirements",
+    "abbreviation": "2 AF/A5/8/9"
+  },
+  {
+    "name": "Air Education and Training Command /Programs Compliance and Support Branch",
+    "abbreviation": "AETC/A3G"
+  },
+  {
+    "name": "Air Education and Training Command, Operations and Communication",
+    "abbreviation": "AETC/A3/6"
+  },
+  {
+    "name": "Air Education and Training Command, Directorate of Plans, Programs, and Requirements",
+    "abbreviation": "AETC/A5/8"
+  },
+  {
+    "name": "Air Education and Training Command, Acquisition Division",
+    "abbreviation": "AETC/A5Q"
+  },
+  {
+    "name": "AFPC Workforce Development",
+    "abbreviation": "AFPC/DP3DW"
+  },
+  {
+    "name": "Air Force/Operations Deputy",
+    "abbreviation": "AF/A3"
+  },
+  {
+    "name": "Space Training and Readiness Command, Space Delta 13 - Education",
+    "abbreviation": "STARCOM/Del 13"
+  },
+  {
+    "name": "Space Force/Enterprise Talent Management Office (ETMO), Talent Operations Division, Assignments",
+    "abbreviation": "SF/ETMO"
+  },
+  {
+    "name": "HQ Air Reserve Personnel Center, Education & Incentives Division",
+    "abbreviation": "ARPC/DPAT"
+  },
+  {
+    "name": "Force Support Squadron education and training",
+    "abbreviation": "FSS/FSDE"
+  },
+  {
+    "name": "Unit Training Managers",
+    "abbreviation": "UTMs"
+  },
+  {
+    "name": "Additional Duty Unit Training Managers",
+    "abbreviation": "ADUTMs"
+  },
+  {
+    "name": "Training Group Commander",
+    "abbreviation": "TRG/CC"
+  },
+  {
+    "name": "Training Squadron Commander",
+    "abbreviation": "TRS/CC"
+  },
+  {
+    "name": "Air Education and Training Command/Innovation and Analysis",
+    "abbreviation": "AETC/A9/SAS"
+  },
+  {
+    "name": "Space Training and Readiness Command-Operations",
+    "abbreviation": "STARCOM/S3"
+  },
+  {
+    "name": "Air Education and Training Command Force Development Policy and Integration Division",
+    "abbreviation": "AETC/A3K"
+  },
+  {
+    "name": "Deputy Director for Air Force Force Development",
+    "abbreviation": "AF/A1D"
+  },
+  {
+    "name": "Assistant Secretary of the Air Force for Financial Management and Comptroller",
+    "abbreviation": "SAF/FM"
+  },
+  {
+    "name": "The Air Force Judge Advocate General",
+    "abbreviation": "AF/JA"
+  },
+  {
+    "name": "Air Force/Strategic Plans and Programs",
+    "abbreviation": "AF/A8"
+  },
+  {
+    "name": "Air University",
+    "abbreviation": "AETC/AU"
+  },
+  {
+    "name": "Air Force Institute of Technology",
+    "abbreviation": "AFIT"
+  },
+  {
+    "name": "Basic Military Training",
+    "abbreviation": "BMT"
+  },
+  {
+    "name": "United States Air Force Academy",
+    "abbreviation": "USAFA"
+  },
+  {
+    "name": "Academy of Military Science",
+    "abbreviation": "AMS"
+  },
+  {
+    "name": "Secretary of the AF/General Counsel",
+    "abbreviation": "SAF/GC"
+  },
+  {
+    "name": "982 Training Group",
+    "abbreviation": "982 TRG"
+  }
+]
