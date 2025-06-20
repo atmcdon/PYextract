@@ -1,122 +1,92 @@
 [
   {
-    "name": "Assistant Secretary of the Air Force for Manpower and Reserve Affairs",
-    "abbreviation": "SAF/MR"
+    "role": "Headquarters Air Force (HAF) & US Space Force (USSF) Policy",
+    "description": "Sets lead policy for training.",
+    "abbreviations": ["AF/A1", "AF/A1DL", "SF/S1", "SF/SID"]
   },
   {
-    "name": "Deputy Chief of Staff for Manpower, Personnel and Services",
-    "abbreviation": "AF/A1"
+    "role": "Service level Career Field Managers",
+    "description": "Appointed leaders who ensure their assigned specialties are trained and utilized to support the mission. They approve waivers, develop the Career Field Education and Training Plan (CFETP), and chair training requirement meetings.",
+    "abbreviations": ["CFM"]
   },
   {
-    "name": "Deputy Chief of Space Operations for Human Capital",
-    "abbreviation": "SF/S1"
+    "role": "Air Force Personnel Center, Work Force Development",
+    "description": "Develops guidance to implement training policy, manages training program operations, and coordinates on CFETPs.",
+    "abbreviations": ["AFPC/DP3D"]
   },
   {
-    "name": "Chief of Military Force Policy Division",
-    "abbreviation": "AF/A1PP"
+    "role": "Air Education and Training Command",
+    "description": "Directs and manages formal training schools, serves as the Force Development Registrar, develops Career Development Courses (CDCs), and leads advanced distributed learning.",
+    "abbreviations": ["AETC"]
   },
   {
-    "name": "Chief of Force Management",
-    "abbreviation": "SF/S1PP"
+    "role": "AETC Training Pipeline Managers",
+    "description": "Advise CFMs on training pipelines, coordinate course revisions, and manage resources to ensure effective execution of training.",
+    "abbreviations": ["AETC/TPM"]
   },
   {
-    "name": "Headquarters Air Force Personnel Center, Director, Personnel Programs",
-    "abbreviation": "AFPC/DP3"
+    "role": "MAJCOM Functional Managers / Advisors & NGB CFMs",
+    "description": "Manage training programs for their respective specialties at the Major Command or National Guard Bureau level, providing guidance to subordinate units and representing the command at training workshops.",
+    "abbreviations": ["MFM", "NGB CFM"]
   },
   {
-    "name": "Director, Personnel Operations",
-    "abbreviation": "AFPC/DPM"
+    "role": "MAJCOM/FLDCOM Training Managers",
+    "description": "Serve as the command's focal point for skills development, managing and assessing the effectiveness of the command's overall training program.",
+    "abbreviations": []
   },
   {
-    "name": "Enterprise Talent Management Organization",
-    "abbreviation": "ETMO"
+    "role": "AF Career Development Academy",
+    "description": "Has authority and responsibility to develop, deliver, and manage all Total Force CDCs and specialized courses for upgrade training.",
+    "abbreviations": ["AFCDA"]
   },
   {
-    "name": "Office of Air Force Reserve, Directorate of Personnel",
-    "abbreviation": "AF/REP"
+    "role": "Base Training Managers",
+    "description": "The base-level OPR for managing all training programs, including upgrade, qualification, and ancillary training for units they service.",
+    "abbreviations": ["BTM"]
   },
   {
-    "name": "Headquarters Air Force Reserve Command, Chief, Military Personnel Division",
-    "abbreviation": "AFRC, A1K"
+    "role": "Base 3F2X1 functional manager",
+    "description": "The senior ranking Education and Training (3F2X1) member on an installation, responsible for ensuring Unit Training Managers are trained and managing 3F2X1 assignments.",
+    "abbreviations": []
   },
   {
-    "name": "Air Reserve Personnel Center",
-    "abbreviation": "ARPC"
+    "role": "Unit commanders",
+    "description": "Ultimately responsible for their unit's training programs, ensuring members attend training, and taking action on training-related issues like withdrawals or failures to progress.",
+    "abbreviations": []
   },
   {
-    "name": "Headquarters Individual Reservists Readiness and Integration Organization",
-    "abbreviation": "HQ RIO"
+    "role": "Unit Training Managers / Additional Duty UTMs",
+    "description": "The commander's key staff member for managing the unit's training program, advising personnel, tracking progress, and managing training records.",
+    "abbreviations": ["UTM", "ADUTM"]
   },
   {
-    "name": "Director, Manpower, Personnel, Recruiting, and Services",
-    "abbreviation": "NGB/A1"
+    "role": "Supervisor",
+    "description": "Directly responsible for the trainee's development. They plan, conduct, evaluate, and document training, develop task lists, and administer the CDC program for their Airmen.",
+    "abbreviations": []
   },
   {
-    "name": "Director, Human Resources",
-    "abbreviation": "NGB/HR"
+    "role": "Trainer",
+    "description": "A subject-matter expert selected to provide hands-on, 'over-the-shoulder' training to a trainee and document their task qualifications.",
+    "abbreviations": []
   },
   {
-    "name": "The Adjutant General",
-    "abbreviation": "TAG"
+    "role": "Task certifier",
+    "description": "Provides third-party certification and evaluation on specific tasks identified by the CFM to ensure a trainee is fully qualified.",
+    "abbreviations": []
   },
   {
-    "name": "Commanding General",
-    "abbreviation": "CG"
+    "role": "Trainee",
+    "description": "The individual undergoing training, responsible for actively participating, completing requirements, and obtaining qualifications.",
+    "abbreviations": []
   },
   {
-    "name": "The State Human Resources Office",
-    "abbreviation": ""
+    "role": "Course owner or sponsor",
+    "description": "The office or individual responsible for developing, managing, and updating a specific Total Force Awareness Training (TFAT) course.",
+    "abbreviations": []
   },
   {
-    "name": "Military Personnel Management Officer",
-    "abbreviation": ""
-  },
-  {
-    "name": "Installation/Wing/Delta/Group/Unit Commanders",
-    "abbreviation": ""
-  },
-  {
-    "name": "Force Support Squadron",
-    "abbreviation": "FSS"
-  },
-  {
-    "name": "Military Personnel Flight",
-    "abbreviation": "MPF"
-  },
-  {
-    "name": "General Officer Management Office",
-    "abbreviation": "AF/A1LG"
-  },
-  {
-    "name": "Senior Leader Management Office",
-    "abbreviation": "SF/S1L"
-  },
-  {
-    "name": "Air Force Reserve Senior Leader Management Directorate",
-    "abbreviation": "AF/REG"
-  },
-  {
-    "name": "Senior Management Office",
-    "abbreviation": "NGB-SL"
-  },
-  {
-    "name": "Colonel Management Office",
-    "abbreviation": "AF/A1LO"
-  },
-  {
-    "name": "Chief Master Sergeant Management Office",
-    "abbreviation": "AF/A1LE"
-  },
-  {
-    "name": "The Office of the Judge Advocate General, Professional Development Directorate",
-    "abbreviation": "AF/JAX"
-  },
-  {
-    "name": "The Office of TJAG, Total Force Advisor to TJAG",
-    "abbreviation": ""
-  },
-  {
-    "name": "The Deputy Undersecretary of the Air Force for International Affairs, International Airman and Guardians Division",
-    "abbreviation": "SAF/IAPA"
+    "role": "DAF Learning Committee",
+    "description": "The senior leader 'gatekeeper' body that vets new TFAT requirements, establishes priorities, and determines efficient delivery options for the Total Force.",
+    "abbreviations": ["DAFLC"]
   }
 ]
