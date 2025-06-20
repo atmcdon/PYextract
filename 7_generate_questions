@@ -1,0 +1,115 @@
+# 7_generate_questions.py (with hierarchical context)
+import json
+import google.generativeai as genai
+import os
+from dotenv import load_dotenv
+import sys
+
+# --- Configuration ---
+# Loads the GOOGLE_API_KEY from your .env file
+load_dotenv()
+try:
+    genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+except KeyError:
+    print("Error: GOOGLE_API_KEY not found in .env file.")
+    sys.exit(1)
+
+# Initialize the Gemini model
+model = genai.GenerativeModel('gemini-1.5-flash')
+
+def generate_question_from_text(context_text, question_prompt):
+    """Calls the Gemini API to turn a chunk's text into a question, using context."""
+    try:
+        # Combine the user's prompt with the full context text
+        full_prompt = f"{question_prompt}\n\n--- CONTEXT ---\n{context_text}\n--- END CONTEXT ---"
+        
+        response = model.generate_content(full_prompt)
+        
+        # Clean up the response to remove potential markdown or quotes
+        return response.text.strip().replace('"', '').replace('*', '')
+    except Exception as e:
+        print(f"Error during question generation: {e}")
+        return "Question generation failed."
+
+def process_chunks_for_questions(input_file, output_file, prompt_file):
+    """Reads chunks, generates questions using hierarchical context, and writes augmented chunks."""
+    try:
+        with open(prompt_file, 'r', encoding='utf-8') as f:
+            question_prompt = f.read()
+    except FileNotFoundError:
+        print(f"Error: Question prompt file not found at {prompt_file}")
+        return
+
+    all_chunks = []
+    final_augmented_chunks = []
+    
+    # --- Step 1: Read all chunks from the input file into a list ---
+    try:
+        with open(input_file, 'r', encoding='utf-8') as f_in:
+            # Use a robust method to read multiple JSON objects from the file
+            decoder = json.JSONDecoder()
+            content = f_in.read().strip()
+            pos = 0
+            while pos < len(content):
+                try:
+                    chunk, size = decoder.raw_decode(content[pos:])
+                    all_chunks.append(chunk)
+                    pos += size
+                except json.JSONDecodeError:
+                    # This handles whitespace or separators between objects
+                    pos += 1
+    except FileNotFoundError:
+        print(f"Error: Input chunk file not found at {input_file}")
+        return
+
+    # --- Step 2: Create a lookup dictionary for efficient context retrieval ---
+    all_chunks_by_id = {chunk.get('id'): chunk for chunk in all_chunks}
+    print(f"Successfully decoded {len(all_chunks)} chunks for question generation.")
+
+    # --- Step 3: Iterate over chunks, build context, and generate questions ---
+    for chunk_data in all_chunks:
+        print(f"Generating question for chunk: {chunk_data.get('id')}")
+
+        # --- NEW: Build hierarchical context for the prompt ---
+        context_texts = []
+        parent_chunk_ids = chunk_data.get("preceding_chunk_ids", [])
+        
+        # Add the text from each parent chunk
+        for parent_id in parent_chunk_ids:
+            parent_chunk = all_chunks_by_id.get(parent_id)
+            if parent_chunk:
+                context_texts.append(f"Parent Context ({parent_chunk.get('header')}): {parent_chunk.get('text', '')}")
+
+        # Add the current chunk's text last, explicitly labeling it
+        context_texts.append(f"Text to turn into a question ({chunk_data.get('header')}): {chunk_data.get('text', '')}")
+        
+        # Combine all context into a single string for the prompt
+        full_context_for_prompt = "\n\n".join(context_texts)
+        
+        # Call the API to generate a question using the full context
+        generated_question = generate_question_from_text(full_context_for_prompt, question_prompt)
+        
+        # Add the new question to the chunk data
+        chunk_data["generated_question"] = generated_question
+        final_augmented_chunks.append(chunk_data)
+
+    # --- Step 4: Save the newly augmented chunks to the final output file ---
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f_out:
+            for chunk in final_augmented_chunks:
+                f_out.write(json.dumps(chunk) + '\n')
+        print(f"Successfully generated questions and saved to {output_file}")
+    except IOError as e:
+        print(f"Error writing to output file: {e}")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 4:
+        print("Usage: python 7_generate_questions.py <input_chunks_file> <output_file> <question_prompt_file>")
+        sys.exit(1)
+
+    input_chunks_path = sys.argv[1]
+    output_final_path = sys.argv[2]
+    question_prompt_path = sys.argv[3]
+
+    process_chunks_for_questions(input_chunks_path, output_final_path, question_prompt_path)
