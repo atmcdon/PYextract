@@ -5,7 +5,17 @@ import os
 from dotenv import load_dotenv
 import sys
 
-# --- Configuration ---
+# --- NEW: Processing Configuration ---
+# Set this to True to process the entire document.
+# Set this to False to process only the number of chunks defined in CHUNK_PROCESSING_LIMIT.
+PROCESS_ALL_CHUNKS = True 
+
+# This number is used only if PROCESS_ALL_CHUNKS is set to False.
+CHUNK_PROCESSING_LIMIT = 20
+# --- End of Configuration ---
+
+
+# --- API Configuration ---
 load_dotenv() 
 try:
     genai.configure(api_key=os.environ["GOOGLE_API_KEY"]) 
@@ -58,8 +68,9 @@ def extract_role_string_with_gemini(full_context_prompt_text, temperature_value)
 
 def process_file_and_extract_roles(input_file_path, output_file_path, system_prompt_path, roles_data_path, model_temperature):
     """
-    Reads all chunks, finds roles for them using EFFICIENT hierarchical context,
+    Reads chunks, finds roles for them using EFFICIENT hierarchical context,
     and writes the processed chunks to the output file.
+    The number of chunks processed is controlled by the configuration at the top of the file.
     """
     all_chunks = []
     updated_chunks = []
@@ -85,22 +96,26 @@ def process_file_and_extract_roles(input_file_path, output_file_path, system_pro
     # --- EFFICIENT CONTEXT: Create a lookup dictionary for quick access to chunks by their ID ---
     all_chunks_by_id = {chunk['id']: chunk for chunk in all_chunks}
     
-    # --- MODIFIED: Process ALL chunks in the file ---
-    print(f"--- Starting role extraction for all {len(all_chunks)} chunks using hierarchical context. ---")
+    # --- MODIFIED: Determine how many chunks to process based on the config flag ---
+    if PROCESS_ALL_CHUNKS:
+        num_chunks_to_process = len(all_chunks)
+        print(f"--- Starting role extraction for ALL {num_chunks_to_process} chunks. ---")
+    else:
+        num_chunks_to_process = min(CHUNK_PROCESSING_LIMIT, len(all_chunks))
+        print(f"--- Starting role extraction for a LIMITED number of {num_chunks_to_process} chunks. ---")
 
-    for i, chunk_data in enumerate(all_chunks):
+    for i in range(num_chunks_to_process):
+        chunk_data = all_chunks[i]
         try:
             # --- Efficient Hierarchical Context Building ---
             context_chunks_texts = []
             parent_chunk_ids = chunk_data.get("preceding_chunk_ids", [])
             
-            # Add the text from each direct parent chunk to the context
             for parent_id in parent_chunk_ids:
                 parent_chunk = all_chunks_by_id.get(parent_id)
                 if parent_chunk:
                     context_chunks_texts.append(f"Parent Context ({parent_chunk.get('header')}): {parent_chunk.get('text', '')}")
 
-            # Add the current chunk's text last
             context_chunks_texts.append(f"Current Chunk to Analyze ({chunk_data.get('header')}): {chunk_data.get('text', '')}")
 
             # Construct the full prompt
@@ -125,7 +140,7 @@ Based on this context, what is the role for the 'Current Chunk to Analyze'?
 
         except Exception as e:
             print(f"An error occurred while processing chunk {i}: {e}")
-            updated_chunks.append(chunk_data) # Add original chunk back on error
+            updated_chunks.append(chunk_data) 
             continue
     
     # Write the updated chunks to the output file
