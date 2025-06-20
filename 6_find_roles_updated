@@ -1,0 +1,162 @@
+# 6_find_roles.py (with more efficient hierarchical context)
+import json
+import google.generativeai as genai
+import os
+from dotenv import load_dotenv
+import sys
+
+# --- Configuration ---
+load_dotenv() 
+try:
+    genai.configure(api_key=os.environ["GOOGLE_API_KEY"]) 
+except KeyError:
+    print("Error: GOOGLE_API_KEY not found in .env file.")
+    sys.exit(1)
+
+model = genai.GenerativeModel('gemini-1.5-flash')
+
+def load_roles_data(file_path):
+    """Loads the roles data from a JSON file."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error loading roles data: {e}")
+        return []
+
+def load_system_prompt_template(file_path):
+    """Loads the system prompt template from a text file."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return f.read()
+    except FileNotFoundError:
+        print(f"Error loading system prompt: {file_path} not found.")
+        return ""
+
+def format_roles_for_prompt(roles_list):
+    """Formats the list of roles into a readable string for the prompt."""
+    formatted_roles = []
+    for role in roles_list:
+        name = role.get("name")
+        abbreviation = role.get("abbreviation", "")
+        if name:
+            formatted_roles.append(f"- {name} ({abbreviation})" if abbreviation else f"- {name}")
+    return "\n".join(formatted_roles)
+
+def extract_role_string_with_gemini(full_context_prompt_text, temperature_value): 
+    """Uses the Gemini API to extract the 'role' string."""
+    generation_config = genai.GenerationConfig(temperature=temperature_value)
+    try:
+        response = model.generate_content(
+            contents=[{"role": "user", "parts": [{"text": full_context_prompt_text}]}],
+            generation_config=generation_config
+        )
+        return response.text.strip()
+    except Exception as e:
+        print(f"Error calling Gemini API: {e}")
+        return "Role not found"
+
+def process_file_and_extract_roles(input_file_path, output_file_path, system_prompt_path, roles_data_path, model_temperature):
+    """
+    Reads chunks, finds roles for the first 15 using EFFICIENT hierarchical context,
+    and writes only those processed chunks to the output file.
+    """
+    all_chunks = []
+    updated_chunks = []
+    
+    roles_data = load_roles_data(roles_data_path)
+    system_prompt_template = load_system_prompt_template(system_prompt_path)
+    formatted_roles_list = format_roles_for_prompt(roles_data)
+    
+    if not roles_data or not system_prompt_template:
+        print("Failed to load necessary data (roles or system prompt). Exiting.")
+        return
+
+    # First pass: Read all chunks and store them in a list of objects.
+    try:
+        with open(input_file_path, 'r', encoding='utf-8') as infile:
+            for line in infile:
+                if line.strip():
+                    all_chunks.append(json.loads(line.strip()))
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error reading or parsing input chunk file: {e}")
+        return
+
+    # --- EFFICIENT CONTEXT: Create a lookup dictionary for quick access to chunks by their ID ---
+    all_chunks_by_id = {chunk['id']: chunk for chunk in all_chunks}
+    
+    # Second pass: Process only the first 15 chunks.
+    num_chunks_to_process = min(15, len(all_chunks))
+    print(f"--- Starting role extraction for the first {num_chunks_to_process} chunks using hierarchical context. ---")
+
+    for i in range(num_chunks_to_process):
+        chunk_data = all_chunks[i]
+        try:
+            # --- NEW: Efficient Hierarchical Context Building ---
+            context_chunks_texts = []
+            parent_chunk_ids = chunk_data.get("preceding_chunk_ids", [])
+            
+            # Add the text from each direct parent chunk to the context
+            for parent_id in parent_chunk_ids:
+                parent_chunk = all_chunks_by_id.get(parent_id)
+                if parent_chunk:
+                    context_chunks_texts.append(f"Parent Context ({parent_chunk.get('header')}): {parent_chunk.get('text', '')}")
+
+            # Add the current chunk's text last
+            context_chunks_texts.append(f"Current Chunk to Analyze ({chunk_data.get('header')}): {chunk_data.get('text', '')}")
+
+            # Construct the full prompt
+            full_gemini_prompt = f"""
+{system_prompt_template.replace("<ROLES_LIST>", formatted_roles_list)}
+
+Consider the following hierarchical context from the document structure:
+--- START CONTEXT ---
+{"\n\n".join(context_chunks_texts)}
+--- END CONTEXT ---
+
+Based on this context, what is the role for the 'Current Chunk to Analyze'?
+"""
+            # Call Gemini API if role is empty
+            if not chunk_data.get("role"):
+                identified_role = extract_role_string_with_gemini(full_gemini_prompt, temperature_value=model_temperature)
+                chunk_data["role"] = identified_role
+            else:
+                print(f"Chunk ID: {chunk_data.get('id')} already has a role. Skipping.")
+
+            updated_chunks.append(chunk_data)
+
+        except Exception as e:
+            print(f"An error occurred while processing chunk {i}: {e}")
+            updated_chunks.append(chunk_data) # Add original chunk back on error
+            continue
+    
+    # Write ONLY the updated chunks to the output file
+    try:
+        with open(output_file_path, 'w', encoding='utf-8') as outfile:
+            for chunk in updated_chunks:
+                outfile.write(json.dumps(chunk, indent=4) + "\n") 
+        print(f"\nProcessing complete. The first {len(updated_chunks)} chunks were saved to '{output_file_path}'")
+    except IOError as e:
+        print(f"Error writing to output file: {e}")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 5:
+        print("Usage: python 6_find_roles.py <input_chunks_file> <output_file> <roles_file> <prompt_file>")
+        sys.exit(1)
+
+    input_file_path = sys.argv[1]
+    output_file_path = sys.argv[2]
+    roles_data_path = sys.argv[3]
+    system_prompt_path = sys.argv[4]
+    
+    model_temperature = 0.2 
+
+    process_file_and_extract_roles(
+        input_file_path, 
+        output_file_path, 
+        system_prompt_path, 
+        roles_data_path, 
+        model_temperature=model_temperature
+    )
+    
+    print(f"Processing complete. Output saved to '{output_file_path}'")
